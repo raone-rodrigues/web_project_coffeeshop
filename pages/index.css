@@ -11,16 +11,19 @@
 .content {
 }
 
-.section__recipes {
+.content__section {
 }
 
-.section__reservation {
+.content__section_recipes {
 }
 
-.section__menu {
+.content__section_reservation {
 }
 
-.section__about {
+.content__section_menu {
+}
+
+.content__section_about {
 }
 
 .footer {
