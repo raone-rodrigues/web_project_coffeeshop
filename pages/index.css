@@ -91,15 +91,11 @@
   z-index: 0;
 }
 
-.header_footer {
+.header__footer {
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 0;
+  margin-top: auto;
   width: 100%;
   flex-direction: column;
-  justify-content: space-between;
-  position: absolute;
-  bottom: 0;
 }
 
 .header__paragraph {
@@ -110,7 +106,6 @@
   line-height: 20px;
   color: #838383;
   justify-content: space-between;
-  margin-bottom: 0;
   z-index: 1;
 }
 
@@ -197,15 +192,16 @@
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
+  width: 480px;
 }
 
-.content__section_reservation {
+.reservation {
 }
 
-.content__section_menu {
+.menu {
 }
 
-.content__section_about {
+.about {
 }
 
 .footer {
