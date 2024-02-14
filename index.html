@@ -33,7 +33,7 @@
             alt="Logo Triple Expresso"
           />
           <ul class="nav__links">
-            <li><a class="nav__link" href="#receitas">Receitas</a></li>
+            <li><a class="nav__link" href="#recipes">Receitas</a></li>
             <li><a class="nav__link" href="#menu"> Cardápio</a></li>
             <li>
               <a class="nav__link" href="#reservation">Reservar uma mesa</a>
@@ -70,7 +70,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes" id="receitas">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Receitas</h2>
           <p class="recipes__subtitle">
             Confira algumas receitas que coletamos para seu lanchinho caseiro:
@@ -104,7 +104,63 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__input">
+              <label class="form__label" for="name"
+                ><span class="form__label-text">Nome *</span
+                ><input
+                  type="text"
+                  class="form__item"
+                  id="name"
+                  placeholder="Nome"
+                  required
+              /></label>
+              <label class="form__label" for="number"
+                ><span class="form__label-text">Número de convidados *</span
+                ><input
+                  type="number"
+                  min="1"
+                  max="8"
+                  class="form__item"
+                  id="number"
+                  placeholder="1-8"
+                  required
+              /></label>
+              <label class="form__label" for="datetime-local"
+                ><span class="form__label-text">Data & hora *</span
+                ><input
+                  type="datetime-local"
+                  class="form__item"
+                  id="datetime-local"
+                  required
+              /></label>
+              <label class="form__label" for="email"
+                ><span class="form__label-text">Seu e-mail *</span
+                ><input
+                  type="email"
+                  class="form__item"
+                  id="email"
+                  placeholder="email@email.com"
+                  required
+              /></label>
+            </fieldset>
+            <button type="submit" class="form__button">
+              Reservar uma mesa
+            </button>
+            <br />
+
+            <label class="form__label form__label_checkbox" for="checkbox"
+              ><input
+                type="checkbox"
+                class="form__checkbox"
+                id="checkbox"
+                required
+              />Eu concordo com os termos de uso</label
+            >
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="about"></section>
       </main>
