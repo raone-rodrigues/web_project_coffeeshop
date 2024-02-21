@@ -75,7 +75,6 @@
 }
 
 .header__paragraph-hours {
-  display: flex;
   list-style: none;
   flex-direction: column;
   margin-left: 40px;
@@ -83,7 +82,6 @@
 }
 
 .header__paragraph-addres {
-  display: flex;
   margin-right: 80px;
   margin-bottom: 40px;
   align-items: end;
