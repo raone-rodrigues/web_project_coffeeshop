@@ -4,10 +4,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 0;
-  display: flex;
-  position: relative;
   flex-direction: column;
+  display: flex;
 }
 
 .recipes__title {
@@ -15,12 +13,12 @@
   margin-top: 100px;
   margin-bottom: 24px;
   max-width: 580px;
-  display: flex;
   font-family: "Inter", "arial", sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   color: #fff;
+  display: flex;
 }
 
 .recipes__subtitle {
@@ -37,7 +35,7 @@
 .recipes__videos {
   display: flex;
   border-left: 200px;
-  margin-bottom: 215px;
+  padding-bottom: 215px;
   gap: 40px;
   justify-content: center;
 }

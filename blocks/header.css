@@ -1,5 +1,4 @@
 .header {
-  display: flex;
   flex-direction: column;
   position: relative;
   height: 100vh;
@@ -9,6 +8,7 @@
   margin: 0;
   min-height: 720px;
   max-height: 800px;
+  margin-bottom: 0;
 }
 
 .header__title {
@@ -58,9 +58,9 @@
 
 .header__wrapper-hours-and-address {
   display: flex;
-  margin-top: auto;
   width: 100%;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .header__paragraph {
@@ -78,11 +78,9 @@
   list-style: none;
   flex-direction: column;
   margin-left: 40px;
-  margin-bottom: 40px;
 }
 
 .header__paragraph-addres {
   margin-right: 80px;
-  margin-bottom: 40px;
   align-items: end;
 }
